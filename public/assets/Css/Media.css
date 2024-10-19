@@ -1,0 +1,262 @@
+@media (max-width:1200px) {
+    .find-outer h3 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .find-outer .img-inner {
+
+        right: -98px;
+    }
+}
+
+@media (max-width:1100px) {
+    .find-outer .img-inner {
+
+        right: -80px;
+    }
+}
+
+@media (max-width:1024px) {
+    .find-outer .img-inner {
+
+        right: -44px;
+    }
+}
+
+
+@media (max-width:991px) {
+    .container {
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: none;
+        box-shadow: none;
+
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../img/menu.png);
+    }
+
+    .find-outer .img-content {
+        padding-right: 0;
+    }
+
+    .find-outer .img-inner {
+
+        right: 0px;
+    }
+
+    .find-outer .text-inner {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .find-outer h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .find-outer p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .find-outer a {
+        padding: 12px 14px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    /* Services */
+
+    .services-outer ul li a {
+        font-size: 12px;
+        padding: 18px 10px;
+    }
+
+    .services-outer ul li span {
+        padding: 6px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .find-outer h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .find-outer p {
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+
+    .find-outer a {
+        padding: 12px 14px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    /* Empower */
+
+    .heading h4 {
+        font-size: 25px;
+    }
+
+    .heading p {
+        font-size: 11px;
+    }
+
+    .empower-outer .item {
+        padding-bottom: 20px;
+    }
+
+    .empower-outer .text-content p {
+        font-size: 12px;
+    }
+
+    .empower-outer .img-content {
+        width: 90px;
+        height: 90px;
+
+    }
+
+    .empower-outer .img-content img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .empower-outer .item .text-content {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    /* Services */
+    .services-outer {
+        padding: 60px 0;
+    }
+
+    .services-outer .img-content {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .services-outer .text-content {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* community */
+    .community-outer .heading h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .community-outer .heading p {
+        font-size: 14px;
+    }
+
+    /* Footer  */
+    footer .top {
+        padding-bottom: 20px;
+    }
+
+    footer .top .item:not(:last-child)::before {
+        height: 90px;
+    }
+
+    footer .top .button-group .fill-button,
+    footer .top .button-group .round-button {
+        display: inline-block;
+    }
+
+    footer .top .button-group .fill-button {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:667px) {
+    .find-outer .text-inner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .client-outer .heading p {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .find-outer .img-content {
+        padding: 0;
+        position: relative;
+        order: 1;
+    }
+
+    .find-outer .text-content {
+        order: 2;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* Community */
+    .community-outer .heading p {
+        font-size: 12px;
+    }
+
+    .community-outer .link-group a img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .community-outer .heading {
+        padding-bottom: 0px;
+    }
+
+    .community-outer .heading h4 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .community-outer .heading p {
+        font-size: 10px;
+    }
+
+    /* Footer */
+    footer .top .item:not(:last-child)::before {
+        display: none;
+    }
+
+    footer .bottom p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:420px) {
+    .community-outer .link-group a:first-child {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .services-outer ul li,
+    .services-outer ul li a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Home */
